@@ -1,0 +1,59 @@
+#body{margin: 0; background-color: black;}
+
+#current_scoreboard{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+position: absolute;
+z-index: 3;
+font-size: xx-large;
+color: white;
+font-weight: bolder;
+user-select: none;
+margin: 2%;
+visibility: hidden;
+}
+
+#menu{
+    user-select: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(4, 71, 13, 0.66);
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10%;
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#final_score{font-size: 2vw; visibility: hidden; color: whitesmoke;}
+#value{font-size: 2vw; visibility: hidden; color: whitesmoke;}
+
+#game_title{
+    color:whitesmoke;
+    font-weight: bolder;
+    font-size:5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main_button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2.4%;
+    padding-bottom: 2.4%;
+}
+
+#main_button:hover{background-color: whitesmoke; color: green; }
+
+#game_state{
+    font-size: 4vw;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+

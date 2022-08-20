@@ -116,7 +116,7 @@ function spawnObstacles(){
         obstacle_list.push(new Obstacles(x_value, y_value, constant_width, random_height, 'green', image_index, velocity))
         obstacle_list.push(new Obstacles(x_value, window.innerHeight - second_height, constant_width, second_height, 'green', image_index, velocity))
 
-    }, 1200)}
+    }, 1800)}
     
 
 
